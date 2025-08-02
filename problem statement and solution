@@ -1,0 +1,101 @@
+
+### **PREDICTIVE MAINTENANCE OF INDUSTRIAL MACHINERY**
+
+**MACHINE LEARNING PROJECT**
+
+**Presented By:**
+**1. ANSH AGARWAL** – The Technological Institute of Textile and Sciences – Computer Science Engineering
+
+---
+
+### **OUTLINE**
+
+* Problem Statement
+* Proposed System/Solution
+* System Development Approach
+* Algorithm & Deployment
+* Result
+* Conclusion
+* Future Scope
+* References
+
+---
+
+### **PROBLEM STATEMENT**
+
+Develop a predictive maintenance model for a fleet of industrial machines to anticipate failures before they occur. This project will involve analyzing sensor data from machinery to identify patterns that precede a failure. The goal is to create a classification model that can predict the type of failure (e.g., tool wear, heat dissipation, power failure) based on real-time operational data. This will enable proactive maintenance, reducing downtime and operational costs.
+
+---
+
+### **PROPOSED SOLUTION**
+
+The proposed system aims to address the challenge of predicting machine failures in advance by analyzing sensor data and applying machine learning algorithms to detect failure patterns, enabling timely maintenance and reducing downtime.
+
+The solution will consist of the following components:
+
+* **DATA COLLECTION**: Used the Kaggle dataset of Machine Predictive Maintenance Classification.
+* **PRE-PROCESSING**: Cleaned and normalized the dataset.
+* **MODEL TRAINING**: Trained classification models (Decision Tree, Random Forest, and SVM).
+* **EVALUATION**: Validated the model using Accuracy, Precision, Recall, and F1 Score.
+
+---
+
+### **SYSTEM APPROACH**
+
+The “System Approach” section outlines the overall strategy and methodology for developing and implementing the Predictive Maintenance Classification System.
+
+**System Requirements:**
+
+1. IBM Cloud
+2. IBM Watsonx AI Studio – for model development and deployment
+3. IBM Watsonx Runtime Service – to build, deploy, manage, and optimize decisions anywhere
+4. IBM Cloud Object Storage – for dataset handling
+
+---
+
+### **ALGORITHM & DEPLOYMENT**
+
+**Algorithm Selection:**
+
+* Random Forest Classifier, Decision Tree Classifier, or SVM (based on performance)
+
+**Data Input:**
+
+* UDI, Product ID, Type, Air temperature \[K], Process temperature \[K], Rotational speed \[rpm], Torque \[Nm], Tool wear \[min], Target
+
+**Training Process:**
+
+* Supervised learning using labeled sensor data to classify fault types in industrial machines
+
+**Prediction Process:**
+
+* Model deployed on IBM Watson Studio with API endpoint for real-time predictions
+
+---
+
+### **RESULT**
+
+(Repeated across four slides, content not detailed in the PDF)
+
+---
+
+### **CONCLUSION**
+
+The proposed Predictive Maintenance Classification System effectively analyzes real-time sensor data to anticipate machine failures before they occur. Using supervised learning models trained on labeled fault data, the system can classify different types of failures—such as tool wear, overheating, and power-related issues—with high accuracy. This proactive approach to maintenance significantly reduces unplanned downtime and improves operational reliability.
+
+**Effectiveness of the Solution:**
+
+* **Accurate Fault Prediction**: The machine learning model successfully identified early warning signs of equipment failure using patterns in sensor readings.
+* **Reduced Downtime**: By predicting failures in advance, maintenance can be scheduled proactively, minimizing costly interruptions.
+* **Scalable Design**: The system is adaptable to various machine types and industries, making it suitable for diverse industrial environments.
+
+---
+
+### **FUTURE SCOPE**
+
+To improve the accuracy, scalability, and real-time responsiveness of the Predictive Maintenance Classification System, several enhancements and future directions can be explored:
+
+* **Environmental Data**: Integrate external data such as humidity, ambient temperature, or vibration from nearby machinery to capture indirect failure causes.
+* **Operator Logs**: Use human-generated logs or maintenance notes to correlate observed behavior with actual faults.
+* **Machine Usage History**: Incorporate operational context like usage intensity, shift timings, or historical fault patterns for deeper insight.
+
